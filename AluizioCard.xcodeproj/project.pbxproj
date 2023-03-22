@@ -12,6 +12,7 @@
 		37A566C329CA5AC5009DB545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A566C229CA5AC5009DB545 /* Assets.xcassets */; };
 		37A566C629CA5AC5009DB545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A566C529CA5AC5009DB545 /* Preview Assets.xcassets */; };
 		37A566D029CA62CA009DB545 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37A566CF29CA62CA009DB545 /* Pacifico-Regular.ttf */; };
+		37A566D529CA7D44009DB545 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A566D429CA7D44009DB545 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		37A566C529CA5AC5009DB545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37A566CF29CA62CA009DB545 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		37A566D329CA6AEC009DB545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A566D429CA7D44009DB545 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				37A566CC29CA5F9E009DB545 /* fonts */,
 				37A566BE29CA5AC3009DB545 /* AluizioCardApp.swift */,
 				37A566C029CA5AC3009DB545 /* ContentView.swift */,
+				37A566D429CA7D44009DB545 /* InfoView.swift */,
 				37A566C229CA5AC5009DB545 /* Assets.xcassets */,
 				37A566C429CA5AC5009DB545 /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A566C129CA5AC3009DB545 /* ContentView.swift in Sources */,
+				37A566D529CA7D44009DB545 /* InfoView.swift in Sources */,
 				37A566BF29CA5AC3009DB545 /* AluizioCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
